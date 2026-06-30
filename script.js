@@ -25,3 +25,5 @@
 
   revealItems.forEach((item) => observer.observe(item));
 })();
+
+document.addEventListener('DOMContentLoaded',()=>{const b=document.getElementById('openBtn');if(b){b.onclick=()=>{document.getElementById('welcome-screen').classList.add('hide');};}});
